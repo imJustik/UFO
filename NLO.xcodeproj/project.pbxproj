@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450498251CDCC7CD006D5611 /* GameStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450498241CDCC7CD006D5611 /* GameStates.swift */; };
+		450498271CDCCA01006D5611 /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 450498261CDCCA01006D5611 /* WinScene.sks */; };
 		459FD9511CDA125D0088CF60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD9501CDA125D0088CF60 /* AppDelegate.swift */; };
 		459FD9531CDA125D0088CF60 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459FD9521CDA125D0088CF60 /* GameScene.sks */; };
 		459FD9551CDA125D0088CF60 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD9541CDA125D0088CF60 /* GameScene.swift */; };
@@ -14,9 +16,20 @@
 		459FD95A1CDA125D0088CF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459FD9581CDA125D0088CF60 /* Main.storyboard */; };
 		459FD95C1CDA125D0088CF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459FD95B1CDA125D0088CF60 /* Assets.xcassets */; };
 		459FD95F1CDA125D0088CF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459FD95D1CDA125D0088CF60 /* LaunchScreen.storyboard */; };
+		459FD98B1CDB5AB40088CF60 /* planetTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD98A1CDB5AB40088CF60 /* planetTimer.swift */; };
+		459FD98D1CDB70320088CF60 /* meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD98C1CDB70320088CF60 /* meteor.swift */; };
+		459FD9981CDB86F10088CF60 /* cosmorain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459FD9961CDB86F10088CF60 /* cosmorain.sks */; };
+		459FD9991CDB86F10088CF60 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 459FD9971CDB86F10088CF60 /* spark.png */; };
+		459FD99B1CDB95860088CF60 /* BitMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD99A1CDB95860088CF60 /* BitMask.swift */; };
+		459FD99F1CDCA1620088CF60 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD99E1CDCA1620088CF60 /* WinScene.swift */; };
+		459FD9A11CDCAAF20088CF60 /* LostScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459FD9A01CDCAAF20088CF60 /* LostScene.sks */; };
+		459FD9A31CDCAC310088CF60 /* LostScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD9A21CDCAC310088CF60 /* LostScene.swift */; };
+		459FD9A51CDCBCC20088CF60 /* scoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459FD9A41CDCBCC20088CF60 /* scoreLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450498241CDCC7CD006D5611 /* GameStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStates.swift; sourceTree = "<group>"; };
+		450498261CDCCA01006D5611 /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
 		459FD94D1CDA125D0088CF60 /* NLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459FD9501CDA125D0088CF60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459FD9521CDA125D0088CF60 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -26,6 +39,15 @@
 		459FD95B1CDA125D0088CF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459FD95E1CDA125D0088CF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459FD9601CDA125D0088CF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459FD98A1CDB5AB40088CF60 /* planetTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = planetTimer.swift; path = ../planetTimer.swift; sourceTree = "<group>"; };
+		459FD98C1CDB70320088CF60 /* meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meteor.swift; sourceTree = "<group>"; };
+		459FD9961CDB86F10088CF60 /* cosmorain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = cosmorain.sks; sourceTree = "<group>"; };
+		459FD9971CDB86F10088CF60 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		459FD99A1CDB95860088CF60 /* BitMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMask.swift; sourceTree = "<group>"; };
+		459FD99E1CDCA1620088CF60 /* WinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
+		459FD9A01CDCAAF20088CF60 /* LostScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LostScene.sks; sourceTree = "<group>"; };
+		459FD9A21CDCAC310088CF60 /* LostScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostScene.swift; sourceTree = "<group>"; };
+		459FD9A41CDCBCC20088CF60 /* scoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +80,25 @@
 		459FD94F1CDA125D0088CF60 /* NLO */ = {
 			isa = PBXGroup;
 			children = (
+				450498261CDCCA01006D5611 /* WinScene.sks */,
+				459FD98A1CDB5AB40088CF60 /* planetTimer.swift */,
 				459FD9501CDA125D0088CF60 /* AppDelegate.swift */,
 				459FD9521CDA125D0088CF60 /* GameScene.sks */,
+				459FD99E1CDCA1620088CF60 /* WinScene.swift */,
 				459FD9541CDA125D0088CF60 /* GameScene.swift */,
 				459FD9561CDA125D0088CF60 /* GameViewController.swift */,
 				459FD9581CDA125D0088CF60 /* Main.storyboard */,
 				459FD95B1CDA125D0088CF60 /* Assets.xcassets */,
 				459FD95D1CDA125D0088CF60 /* LaunchScreen.storyboard */,
 				459FD9601CDA125D0088CF60 /* Info.plist */,
+				459FD98C1CDB70320088CF60 /* meteor.swift */,
+				459FD9961CDB86F10088CF60 /* cosmorain.sks */,
+				459FD9971CDB86F10088CF60 /* spark.png */,
+				459FD99A1CDB95860088CF60 /* BitMask.swift */,
+				459FD9A01CDCAAF20088CF60 /* LostScene.sks */,
+				459FD9A21CDCAC310088CF60 /* LostScene.swift */,
+				459FD9A41CDCBCC20088CF60 /* scoreLabel.swift */,
+				450498241CDCC7CD006D5611 /* GameStates.swift */,
 			);
 			path = NLO;
 			sourceTree = "<group>";
@@ -129,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				459FD9531CDA125D0088CF60 /* GameScene.sks in Resources */,
+				459FD9991CDB86F10088CF60 /* spark.png in Resources */,
+				459FD9981CDB86F10088CF60 /* cosmorain.sks in Resources */,
+				459FD9A11CDCAAF20088CF60 /* LostScene.sks in Resources */,
 				459FD95F1CDA125D0088CF60 /* LaunchScreen.storyboard in Resources */,
 				459FD95C1CDA125D0088CF60 /* Assets.xcassets in Resources */,
 				459FD95A1CDA125D0088CF60 /* Main.storyboard in Resources */,
+				450498271CDCCA01006D5611 /* WinScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +180,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				459FD9551CDA125D0088CF60 /* GameScene.swift in Sources */,
+				459FD98B1CDB5AB40088CF60 /* planetTimer.swift in Sources */,
+				459FD9A51CDCBCC20088CF60 /* scoreLabel.swift in Sources */,
+				459FD9A31CDCAC310088CF60 /* LostScene.swift in Sources */,
 				459FD9571CDA125D0088CF60 /* GameViewController.swift in Sources */,
+				459FD99F1CDCA1620088CF60 /* WinScene.swift in Sources */,
+				459FD99B1CDB95860088CF60 /* BitMask.swift in Sources */,
+				450498251CDCC7CD006D5611 /* GameStates.swift in Sources */,
 				459FD9511CDA125D0088CF60 /* AppDelegate.swift in Sources */,
+				459FD98D1CDB70320088CF60 /* meteor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NLO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.treedeo.NLO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -269,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NLO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.treedeo.NLO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,6 +340,7 @@
 				459FD9651CDA125D0088CF60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
